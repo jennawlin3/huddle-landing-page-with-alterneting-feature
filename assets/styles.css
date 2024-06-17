@@ -326,7 +326,7 @@ footer {
 
     .footer-logo {
         position: absolute;
-        top: 30px;
+        top: 110px;
     }
 
     .footer-container {
@@ -337,12 +337,12 @@ footer {
         gap: 40px;
         position: relative;
         flex-wrap: wrap;
+        padding-top: 120px;
     }
 
     .ul-container {
         width: 30%;
         padding-left: 30px;
-        margin-top: 60px;
     }
 
     .ul-container li {
@@ -357,7 +357,6 @@ footer {
         width: 40%;
         margin: 0;
         align-self: flex-start;
-        margin-top: 50px;
     }
 }
 
@@ -377,22 +376,41 @@ footer {
 
     .ul-container ul {
         padding-left: 0;
+        margin-top: 180px;
     }
 
     .nav {
         padding-left: 80px !important;
     }
 
+    .ul-container {
+        margin-top: 0;
+    }
+
     .ul-container li a {
         margin: 0;
     }
 
+    footer {
+        height: 80vh;
+    }
+
+    .footer-container {
+        padding-top: 90px;
+    }
+
+    .footer-logo {
+        top: 200px;
+        width: 250px;
+    }
+
     .social-icons_container {
         width: 40%;
-        margin: 0;
+        margin-top: 180px;
         align-self: flex-start;
-        margin-top: 50px;
-    }
+        justify-content: flex-start;
+        gap: 10px;
+   }
 
     .copyright {
         margin-top: 100px;
@@ -435,7 +453,7 @@ footer {
 
     footer{
     width: 100vw;
-
+    max-height: 600px;
     }
 
     .footer-container {
