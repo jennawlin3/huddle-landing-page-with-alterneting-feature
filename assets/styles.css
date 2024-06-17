@@ -249,11 +249,12 @@ footer {
     }
 
     .one .content-container {
-        width: 50%;
+        width: 40%;
     }
 
     .one .content-container h1 {
         text-align: start;
+        font-size: 2.4rem;
     }
 
     .one .content-container p {
@@ -266,7 +267,7 @@ footer {
     }
 
     .one img {
-        width: 50%;
+        width: 60%;
     }
 
     .card {
@@ -280,10 +281,14 @@ footer {
 
     .card h2 {
         text-align: start;
+        font-size: 2rem;
+        font-weight: 600;
+        width: 70%;
     }
 
     .card p {
         text-align: start;
+        width: 80%;
     }
 
     .card .content-container {
@@ -294,8 +299,17 @@ footer {
         flex-direction: row;
     }
 
+    .second .content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
     footer {
         margin-top: 150px;
+        height: 60vh;
+        display: flex;
+        align-items: center;
     }
 
     .get-started_container {
@@ -304,6 +318,10 @@ footer {
         top: -175px;
         right: 20%;
         box-shadow: -1px -3px 2px #f7f7f7;
+    }
+
+    .get-started_container h3 {
+        font-size: 2rem;
     }
 
     .footer-logo {
@@ -344,6 +362,10 @@ footer {
 }
 
 @media screen and (min-width:1100px) {
+    .one .content-container h1, .one .content-container p {
+        width: 90%;
+    }
+
     .get-started_container {
         padding: 60px 40px;
         top: -210px;
