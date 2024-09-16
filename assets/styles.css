@@ -393,6 +393,7 @@ footer {
 
     footer {
         height: 80vh;
+        padding: 40px 60px 120px;
     }
 
     .footer-container {
@@ -425,6 +426,7 @@ footer {
 @media screen and (min-width:1400px) {
     header {
         width: 100%;
+        max-width: 1800px;
     }
 
     .header-container {
@@ -436,7 +438,7 @@ footer {
         gap: 40px;
         width: 100vw;
         background-size: cover;
-
+        max-width: 1800px;
     }
 
     .one img {
@@ -458,6 +460,7 @@ footer {
     footer{
     width: 100vw;
     max-height: 600px;
+    max-width: 1800px
     }
 
     .footer-container {
