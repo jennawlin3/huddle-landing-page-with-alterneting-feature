@@ -324,6 +324,12 @@ footer {
         font-size: 2rem;
     }
 
+    .get-started-btn {
+        width: 400px;
+        height: 70px;
+        border-radius: 100px;
+    }
+
     .footer-logo {
         position: absolute;
         top: 110px;
